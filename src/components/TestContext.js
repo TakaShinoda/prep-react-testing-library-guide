@@ -20,7 +20,6 @@ export const Counter = () => {
         <>
             <h1 data-testid="counter">{counter}</h1>
             <button data-testid="button-up" onClick={increment}>
-                {' '}
                 Up
             </button>
             <button data-testid="button-down" onClick={decrement}>
