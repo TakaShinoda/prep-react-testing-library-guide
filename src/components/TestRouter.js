@@ -12,7 +12,7 @@ const Contact = () => {
  return <h1 data-testid="contact-name">{name}</h1>
 }
 
-const TestRouter = () => {
+export const TestRouter = () => {
     const name = 'John Doe'
     return (
     <>
@@ -31,4 +31,3 @@ const TestRouter = () => {
   )
 }
 
-export default TestRouter
